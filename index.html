@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Profile</title>
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <h1>My Profile</h1>
-    <p id="profile"></p>
-  </body>
+<html lang="en">
 </html>
+  <head>
+  <title>IT211 Tell Me About Yourself</title>
+    <script src="script.js"></script>
+  </head>  
+  <body> 
+    <h1>IT211 Tell Me About Yourself</h1>
+    <p>My name is <span id="firstName"></span><span id="lastName"></span>. I have been at SCC for <span id="yearsOfStudy"></span> and plan to <span id="goal"></span> after completing my courses. </p>
+    <script>
+      document.getElementById("firstName").innerHTML = firstName;
+      document.getElementById("lastName").innerHTML = lastName;
+      document.getElementById("yearsOfStudy").innerHTML = yearsOfStudy;
+      document.getElementById("goal").innerHTML = goal;
+    </script>
+  </body> 
+</html>
+
 
